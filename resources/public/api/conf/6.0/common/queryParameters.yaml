@@ -41,7 +41,7 @@ components:
         - self-employment
       schema:
         type: string
-        enum: [ self-employment, uk-property-fhl, uk-property, foreign-property-fhl-eea, foreign-property, uk-property ]
+        enum: [ self-employment, uk-property-fhl, uk-property, foreign-property-fhl-eea, foreign-property ]
         example: foreign-property
       required: false
 
