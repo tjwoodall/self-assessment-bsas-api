@@ -1,5 +1,4 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
   "title": "List Business Source Adjustable Summaries Response",
   "description": "List Business Source Adjustable Summaries Response",
   "type": "object",
