@@ -54,44 +54,31 @@ post:
             - $ref: './schemas/submit_foreign_property_accounting_adjustments/def4/request.json'
         examples:
           Foreign Property EEA FHL:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def1/submit_foreign_property_eeh_fhl_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def1/submit_foreign_property_eeh_fhl_accounting_adjustments.json
           Foreign Property EEA FHL with Consolidated:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def1/submit_foreign_property_eeh_fhl_consolidated_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def1/submit_foreign_property_eeh_fhl_consolidated_accounting_adjustments.json
           Foreign Property (Non-FHL):
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def1/submit_foreign_property_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def1/submit_foreign_property_accounting_adjustments.json
           Foreign Property (Non-FHL) with Consolidated:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def1/submit_foreign_property_consolidated_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def1/submit_foreign_property_consolidated_accounting_adjustments.json
           TY-2024-25 - Foreign Property EEA FHL Zero Adjustments:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def2/submit_foreign_property_eeh_fhl_accounting_adjustments_zero.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def2/submit_foreign_property_eeh_fhl_accounting_adjustments_zero.json
           TY-2024-25 - Foreign Property Zero Adjustments:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def2/submit_foreign_property_accounting_adjustments_zero.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def2/submit_foreign_property_accounting_adjustments_zero.json
           TY-2024-25 - Foreign Property (Non-FHL) with non-negative residential financial cost:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def2/submit_foreign_property_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def2/submit_foreign_property_accounting_adjustments.json
           TY-2025-26 - Foreign Property Adjustment:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments.json
           TY-2025-26 - Foreign Property Consolidated Adjustment:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_consolidated_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_consolidated_accounting_adjustments.json
           TY-2025-26  - Foreign Property Zero Adjustments:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments_zero.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments_zero.json
           TY-2026-27 onwards - Foreign Property Adjustment:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def4/submit_foreign_property_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def4/submit_foreign_property_accounting_adjustments.json
           TY-2026-27 onwards - Foreign Property Consolidated Adjustment:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def4/submit_foreign_property_consolidated_accounting_adjustments.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def4/submit_foreign_property_consolidated_accounting_adjustments.json
           TY-2026-27 onwards - Foreign Property Zero Adjustments:
-            value:
-              $ref: ./examples/submit_foreign_property_accounting_adjustments/def4/submit_foreign_property_accounting_adjustments_zero.json
+            externalValue: ./examples/submit_foreign_property_accounting_adjustments/def4/submit_foreign_property_accounting_adjustments_zero.json
 
   responses:
     200:
