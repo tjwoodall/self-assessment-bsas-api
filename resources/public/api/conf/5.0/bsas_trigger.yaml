@@ -39,16 +39,13 @@ post:
         examples:
           example-1:
             description: Self-employment Trigger
-            value:
-              $ref: "./examples/trigger/trigger_se_request.json"
+            externalValue: "./examples/trigger/trigger_se_request.json"
           example-2:
             description: UK Property Non-FHL Trigger
-            value:
-              $ref: "./examples/trigger/trigger_non_fhl_request.json"
+            externalValue: "./examples/trigger/trigger_non_fhl_request.json"
           example-3:
             description: Foreign Property Trigger
-            value:
-              $ref: "./examples/trigger/trigger_foreign_property_request.json"
+            externalValue: "./examples/trigger/trigger_foreign_property_request.json"
 
   responses:
     200:
@@ -69,16 +66,13 @@ post:
           examples:
             example-1:
               description: Self-employment example response
-              value:
-                $ref: "./examples/trigger/trigger_se_response.json"
+              externalValue: "./examples/trigger/trigger_se_response.json"
             example-2:
               description: UK Property example response
-              value:
-                $ref: "./examples/trigger/trigger_non_fhl_response.json"
+              externalValue: "./examples/trigger/trigger_non_fhl_response.json"
             example-3:
               description: Foreign Property example response
-              value:
-                $ref: "./examples/trigger/trigger_foreign_property_response.json"
+              externalValue: "./examples/trigger/trigger_foreign_property_response.json"
 
     400:
       description: Bad request

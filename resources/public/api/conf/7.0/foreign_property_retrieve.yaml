@@ -97,44 +97,31 @@ get:
             
           examples:
             PRE-TY-2023-24-Foreign-Property-EEA-FHL:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1/retrieve_foreign_property_eeafhl.json"
+              externalValue: "./examples/retrieve_foreign_property/def1/retrieve_foreign_property_eeafhl.json"
             PRE-TY-2023-24-Foreign-Property-Non-FHL:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1/retrieve_foreign_property_nonfhl.json"
+              externalValue: "./examples/retrieve_foreign_property/def1/retrieve_foreign_property_nonfhl.json"
             PRE-TY-2023-24-Foreign-Property-Consolidated-Expenses:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1/retrieve_foreign_property_consolidated.json"
+              externalValue: "./examples/retrieve_foreign_property/def1/retrieve_foreign_property_consolidated.json"
             PRE-TY-2023-24-Foreign-Property-with-Property-Allowance:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1/retrieve_foreign_property_allowance.json"
+              externalValue: "./examples/retrieve_foreign_property/def1/retrieve_foreign_property_allowance.json"
             TY-2024-25-Foreign-Property-EEA-FHL:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_eeafhl.json"
+              externalValue: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_eeafhl.json"
             TY-2024-25-Foreign-Property-Non-FHL:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_nonfhl.json"
+              externalValue: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_nonfhl.json"
             TY-2024-25-Foreign-Property-Consolidated-Expenses:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_consolidated.json"
+              externalValue: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_consolidated.json"
             TY-2024-25-Foreign-Property-with-Property-Allowance:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_allowance.json"
+              externalValue: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_allowance.json"
             TY-2024-25-Foreign-Property-Zero-Adjustments:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_zero_adjustments.json"
+              externalValue: "./examples/retrieve_foreign_property/def1a/retrieve_foreign_property_zero_adjustments.json"
             TY-2025-26-Foreign-Property:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property.json"
+              externalValue: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property.json"
             TY-2025-26-Foreign-Property-Consolidated-Expenses:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property_consolidated.json"
+              externalValue: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property_consolidated.json"
             TY-2025-26-Foreign-Property-with-Property-Allowance:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property_allowance.json"
+              externalValue: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property_allowance.json"
             TY-2025-26-Foreign-Property-Zero-Adjustments:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property_zero_adjustments.json"
+              externalValue: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property_zero_adjustments.json"
             
             TY-2026-27-Foreign-Property:
               value:

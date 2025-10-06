@@ -55,12 +55,10 @@ get:
           examples:
             "For TY 2024-25 and before":
               description: Example Response
-              value:
-                $ref: "./examples/list/def1/list_response.json"
+              externalValue: "./examples/list/def1/list_response.json"
             "For TY 2025-26 and after":
               description: Example Response
-              value:
-                $ref: "./examples/list/def2/list_response.json"
+              externalValue: "./examples/list/def2/list_response.json"
 
     400:
       description: Bad request
