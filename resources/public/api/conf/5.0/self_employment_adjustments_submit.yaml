@@ -50,12 +50,10 @@ post:
         examples:
           adjustments_full:
             description: Full Expenses
-            value:
-              $ref: "./examples/adjustments/submit_se_adjustments_full.json"
+            externalValue: "./examples/adjustments/submit_se_adjustments_full.json"
           adjustments_consolidated:
             description: Consolidated Expenses
-            value:
-              $ref: "./examples/adjustments/submit_se_adjustments_consolidated.json"
+            externalValue: "./examples/adjustments/submit_se_adjustments_consolidated.json"
 
   responses:
     200:
