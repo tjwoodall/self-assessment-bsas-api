@@ -45,19 +45,24 @@
     "taxableProfit": 12500
   },
   "adjustments": {
-    "income": {
-      "totalRentsReceived": -99999999999.99
-    },
-    "expenses": {
-      "consolidatedExpenses": 0.12
-    }
+    "countryLevelDetail": [
+      {
+        "countryCode": "DEU",
+        "income": {
+          "totalRentsReceived": -99999999999.99
+        },
+        "expenses": {
+          "consolidatedExpenses": 0.12
+        }
+      }
+    ]
   },
   "adjustedSummaryCalculation": {
     "totalIncome": 0.12,
     "income": {
       "totalRentsReceived": 0.12
     },
-    "totalExpenses": -0.12,
+    "totalExpenses": 0.12,
     "expenses": {
       "consolidatedExpenses": 0.89
     },
