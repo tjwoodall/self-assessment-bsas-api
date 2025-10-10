@@ -6,7 +6,7 @@ get:
     
     ### Test data
     Scenario simulation using Gov-Test-Scenario headers is only available in the sandbox environment.     
-    
+     
     | Header Value (Gov-Test-Scenario)          | Scenario                                                                                                                              |
     |-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
     | N/A - DEFAULT                             | Simulates the scenario where no data is found.                                                                                        |
@@ -76,7 +76,7 @@ get:
       content:
         application/json:
           schema:
-            oneOf:
+            anyOf:
               - $ref: "./schemas/retrieve_self_employment/def1/response.json"
               - $ref: "./schemas/retrieve_self_employment/def2/response.json"
               - $ref: "./schemas/retrieve_self_employment/def3/response.json"
