@@ -50,18 +50,23 @@
     "taxableProfit": 12500
   },
   "adjustments": {
-    "income": {
-      "totalRentsReceived": -99999999999.99
-    },
-    "expenses": {
-      "premisesRunningCosts": -999.99,
-      "repairsAndMaintenance": -99999999999.99,
-      "financialCosts": -99999999999.99,
-      "professionalFees": -99999999999.99,
-      "costOfServices": -99999999999.99,
-      "travelCosts": -99999999999.99,
-      "other": -99999999999.99
-    }
+    "countryLevelDetail": [
+      {
+        "countryCode": "CYM",
+        "income": {
+          "totalRentsReceived": -99999999999.99
+        },
+        "expenses": {
+          "premisesRunningCosts": -999.99,
+          "repairsAndMaintenance": -99999999999.99,
+          "financialCosts": -99999999999.99,
+          "professionalFees": -99999999999.99,
+          "costOfServices": -99999999999.99,
+          "travelCosts": -99999999999.99,
+          "other": -99999999999.99
+        }
+      }
+    ]
   },
   "adjustedSummaryCalculation": {
     "totalIncome": 0.12,
