@@ -4,7 +4,7 @@
       "description": "A unique identifier",
       "type": "string",
       "pattern": "^[A-Za-z0-9]{15}$",
-      "example": "123456879012345"
+      "example": 123456879012345
     },
     "bsasId": {
       "title": "id",
