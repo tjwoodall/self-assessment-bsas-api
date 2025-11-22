@@ -76,10 +76,16 @@ paths:
         \            | DYNAMIC                          | The following response values\
         \ will change to correspond to the values submitted in the request:<br> •\
         \ businessID<br> • typeOfBusiness<br> • accountingPeriod.startdate<br> • accountingPeriod.enddate<br>\
-        \ • taxYear<br> • requestedDatetime<br> • adjustedDatetime |\n| ALL      \
-        \        | STATEFUL                         | Performs a stateful list.  \
-        \                                                                        \
-        \                           |   \n"
+        \ • taxYear<br> • requestedDatetime<br> • adjustedDatetime<br><br> Use one\
+        \ of the following businessIDs for the appropriate scenario:<br> • XBIS12345678901\
+        \ for a response with a self-employment business<br> • XBIS12345678902 for\
+        \ a response with a uk-property business<br> • XBIS12345678915 for a response\
+        \ with a foreign-property business<br> • XBIS12345678903 for a response with\
+        \ a foreign-property-fhl-eea business (2024-25 or before only)<br> • XBIS12345678904\
+        \ for a response with a uk-property-fhl business (2024-25 or before only)<br>|\n\
+        | ALL              | STATEFUL                         | Performs a stateful\
+        \ list.                                                                  \
+        \                                   |   \n"
       parameters:
       - name: nino
         in: path
@@ -135,7 +141,7 @@ paths:
         schema:
           pattern: "^X[A-Z0-9]{1}IS[0-9]{11}$"
           type: string
-          example: XAIS12345678910
+          example: XBIS12345678901
       - name: Accept
         in: header
         description: |
@@ -32997,7 +33003,7 @@ components:
       schema:
         pattern: "^X[A-Z0-9]{1}IS[0-9]{11}$"
         type: string
-        example: XAIS12345678910
+        example: XBIS12345678901
     acceptJson:
       name: Accept
       in: header
