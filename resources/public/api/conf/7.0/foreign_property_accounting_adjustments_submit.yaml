@@ -50,6 +50,7 @@ post:
             - $ref: './schemas/submit_foreign_property_accounting_adjustments/def1/request.json'
             - $ref: './schemas/submit_foreign_property_accounting_adjustments/def2/request.json'
             - $ref: './schemas/submit_foreign_property_accounting_adjustments/def3/request.json'
+            
         examples:
           Foreign Property EEA FHL:
             value:
@@ -72,15 +73,16 @@ post:
           TY-2024-25 - Foreign Property (Non-FHL) with non-negative residential financial cost:
             value:
               $ref: ./examples/submit_foreign_property_accounting_adjustments/def2/submit_foreign_property_accounting_adjustments.json
-          TY-2025-26-Foreign Property Adjustment:
+          TY-2025-26 - Foreign Property Adjustment:
             value:
               $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments.json
-          TY-2025-26-Foreign Property Consolidated Adjustment:
+          TY-2025-26 - Foreign Property Consolidated Adjustment:
             value:
               $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_consolidated_accounting_adjustments.json
-          TY-2025-26 onwards - Foreign Property Zero Adjustments:
+          TY-2025-26  onwards  - Foreign Property Zero Adjustments:
             value:
               $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments_zero.json
+          
 
   responses:
     200:
@@ -158,7 +160,8 @@ post:
             RULE_ZERO_ADJUSTMENTS_INVALID:
               $ref: "./common/errors.yaml#/components/examples/ruleZeroAdjustmentsInvalid"
             RULE_BOTH_ADJUSTMENTS_SUPPLIED:
-                $ref: "./common/errors.yaml#/components/examples/ruleBothAdjustmentsSupplied"
+              $ref: "./common/errors.yaml#/components/examples/ruleBothAdjustmentsSupplied"
+            
 
     403:
       description: Forbidden

@@ -15502,6 +15502,8 @@ paths:
                                       up to 2 decimal places.
                                     example: 1000.45
                                   otherPropertyIncome:
+                                    maximum: 99999999999.99
+                                    minimum: 0
                                     type: number
                                     description: "Other income from property, such\
                                       \ as rent charges and ground rents, income from\
@@ -15765,7 +15767,7 @@ paths:
                   additionalProperties: false
                   description: Retrieve a Foreign property Business Source Adjustable
                     Summary Response.
-                - title: For TY 2025-26 and after
+                - title: TY 2025-26 onwards
                   required:
                   - adjustableSummaryCalculation
                   - inputs
@@ -16942,6 +16944,8 @@ paths:
                                       up to 2 decimal places.
                                     example: 1000.45
                                   otherPropertyIncome:
+                                    maximum: 99999999999.99
+                                    minimum: 0
                                     type: number
                                     description: "Other income from property, such\
                                       \ as rent charges and ground rents, income from\
@@ -18121,7 +18125,7 @@ paths:
                     description: Object holding FHL EEA adjustments.
                 additionalProperties: false
                 description: Submit Foreign Property Accounting Adjustments Request
-              - title: For TY 2025-26 and after
+              - title: 'For TY 2025-26  and after '
                 type: object
                 properties:
                   foreignProperty:
@@ -18301,13 +18305,13 @@ paths:
               TY-2024-25 - Foreign Property (Non-FHL) with non-negative residential financial cost:
                 value:
                   $ref: ./examples/submit_foreign_property_accounting_adjustments/def2/submit_foreign_property_accounting_adjustments.json
-              TY-2025-26-Foreign Property Adjustment:
+              TY-2025-26 - Foreign Property Adjustment:
                 value:
                   $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments.json
-              TY-2025-26-Foreign Property Consolidated Adjustment:
+              TY-2025-26 - Foreign Property Consolidated Adjustment:
                 value:
                   $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_consolidated_accounting_adjustments.json
-              TY-2025-26 onwards - Foreign Property Zero Adjustments:
+              TY-2025-26  onwards  - Foreign Property Zero Adjustments:
                 value:
                   $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments_zero.json
       responses:
@@ -30360,6 +30364,8 @@ components:
                           between 0 and 99999999999.99 up to 2 decimal places.
                         example: 1000.45
                       otherPropertyIncome:
+                        maximum: 99999999999.99
+                        minimum: 0
                         type: number
                         description: "Other income from property, such as rent charges\
                           \ and ground rents, income from letting others tip waste\
@@ -30609,7 +30615,7 @@ components:
       description: Retrieve a Foreign property Business Source Adjustable Summary
         Response.
     retrieve_foreign_property_2:
-      title: For TY 2025-26 and after
+      title: TY 2025-26 onwards
       required:
       - adjustableSummaryCalculation
       - inputs
@@ -31717,6 +31723,8 @@ components:
                           between 0 and 99999999999.99 up to 2 decimal places.
                         example: 1000.45
                       otherPropertyIncome:
+                        maximum: 99999999999.99
+                        minimum: 0
                         type: number
                         description: "Other income from property, such as rent charges\
                           \ and ground rents, income from letting others tip waste\
@@ -32427,7 +32435,7 @@ components:
       additionalProperties: false
       description: Submit Foreign Property Accounting Adjustments Request
     request_9:
-      title: For TY 2025-26 and after
+      title: 'For TY 2025-26  and after '
       type: object
       properties:
         foreignProperty:
