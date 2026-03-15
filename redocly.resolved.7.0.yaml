@@ -80,11 +80,11 @@ paths:
           description: |
             The type of business the summary calculation is for.
 
-            Limited to the following possible values for tax years before 2025-26:
+            Limited to the following possible values for tax years 2024-25 and before:
 
             - foreign-property-fhl-eea
             - foreign-property
-            - uk-property-non-fhl
+            - uk-property
             - uk-property-fhl
             - self-employment
 
@@ -101,7 +101,6 @@ paths:
               - uk-property
               - foreign-property-fhl-eea
               - foreign-property
-              - uk-property
             example: foreign-property
           required: false
         - name: businessId
@@ -210,7 +209,7 @@ paths:
                               enum: &ref_9
                                 - self-employment
                                 - uk-property-fhl
-                                - uk-property-non-fhl
+                                - uk-property
                                 - foreign-property-fhl-eea
                                 - foreign-property
                             businessId:
@@ -4799,12 +4798,6 @@ paths:
                                 example: '500.25'
                               includedNonTaxableProfits:
                                 description: Income, receipts and other profits included in business income or expenses but not taxable as business profits. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                type: number
-                                minimum: 0
-                                maximum: 99999999999.99
-                                example: '1000.45'
-                              electricChargePointAllowance:
-                                description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                 type: number
                                 minimum: 0
                                 maximum: 99999999999.99
@@ -9648,12 +9641,6 @@ paths:
                                 minimum: 0
                                 maximum: 99999999999.99
                                 example: '1000.45'
-                              electricChargePointAllowance:
-                                description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                type: number
-                                minimum: 0
-                                maximum: 99999999999.99
-                                example: '1000.45'
                               structuredBuildingAllowance:
                                 description: The amount of enhanced structured building allowance. The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                 type: number
@@ -10679,7 +10666,6 @@ paths:
                         businessPremisesRenovationAllowance: 0.12
                         otherCapitalAllowance: 0.12
                         rarReliefClaimed: 0.12
-                        electricChargePointAllowance: 0.12
                         structuredBuildingAllowance: 0.12
                         enhancedStructuredBuildingAllowance: 0.12
                         zeroEmissionsCarAllowance: 0.12
@@ -10767,7 +10753,6 @@ paths:
                         businessPremisesRenovationAllowance: 0.12
                         otherCapitalAllowance: 0.12
                         rarReliefClaimed: 0.12
-                        electricChargePointAllowance: 0.12
                         structuredBuildingAllowance: 0.12
                         enhancedStructuredBuildingAllowance: 0.12
                         zeroEmissionsCarAllowance: 0.12
@@ -10957,7 +10942,6 @@ paths:
                         businessPremisesRenovationAllowance: 0.12
                         otherCapitalAllowance: 0.12
                         rarReliefClaimed: 0.12
-                        electricChargePointAllowance: 0.12
                         structuredBuildingAllowance: 0.12
                         enhancedStructuredBuildingAllowance: 0.12
                         zeroEmissionsCarAllowance: 0.12
@@ -11818,6 +11802,7 @@ paths:
                       otherPropertyIncome: 1000.45
                     expenses:
                       consolidatedExpenses: 1000.45
+                      residentialFinancialCost: 1000.45
               UK FHL Property with Full Expenses for TY 2024-25:
                 value:
                   furnishedHolidayLet:
@@ -11873,6 +11858,7 @@ paths:
                       otherPropertyIncome: 1000.45
                     expenses:
                       consolidatedExpenses: 1000.45
+                      residentialFinancialCost: 1000.45
               Zero Adjustments request for TY 2025-26 and after:
                 value:
                   ukProperty:
@@ -15085,12 +15071,6 @@ paths:
                                       minimum: 0
                                       maximum: 99999999999.99
                                       example: '1000.45'
-                                    electricChargePointAllowance:
-                                      description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                      type: number
-                                      minimum: 0
-                                      maximum: 99999999999.99
-                                      example: '1000.45'
                                     structuredBuildingAllowance:
                                       description: The amount of structured building allowance. The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                       type: number
@@ -15404,12 +15384,6 @@ paths:
                                 minimum: 0
                                 maximum: 99999999999.99
                                 example: '1000.45'
-                              electricChargePointAllowance:
-                                description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                type: number
-                                minimum: 0
-                                maximum: 99999999999.99
-                                example: '1000.45'
                               structuredBuildingAllowance:
                                 description: The amount of enhanced structured building allowance.  The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                 type: number
@@ -15616,12 +15590,6 @@ paths:
                                       example: '1000.45'
                                     otherCapitalAllowance:
                                       description: Other capital allowances. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                      type: number
-                                      minimum: 0
-                                      maximum: 99999999999.99
-                                      example: '1000.45'
-                                    electricChargePointAllowance:
-                                      description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                       type: number
                                       minimum: 0
                                       maximum: 99999999999.99
@@ -16158,12 +16126,6 @@ paths:
                                       minimum: 0
                                       maximum: 99999999999.99
                                       example: '1000.45'
-                                    electricChargePointAllowance:
-                                      description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                      type: number
-                                      minimum: 0
-                                      maximum: 99999999999.99
-                                      example: '1000.45'
                                     structuredBuildingAllowance:
                                       description: The amount of structured building allowance. The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                       type: number
@@ -16370,12 +16332,6 @@ paths:
                                             example: '1000.45'
                                           otherCapitalAllowance:
                                             description: Other capital allowances. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                            type: number
-                                            minimum: 0
-                                            maximum: 99999999999.99
-                                            example: '1000.45'
-                                          electricChargePointAllowance:
-                                            description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                             type: number
                                             minimum: 0
                                             maximum: 99999999999.99
@@ -16696,12 +16652,6 @@ paths:
                                 minimum: 0
                                 maximum: 99999999999.99
                                 example: '1000.45'
-                              electricChargePointAllowance:
-                                description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                type: number
-                                minimum: 0
-                                maximum: 99999999999.99
-                                example: '1000.45'
                               structuredBuildingAllowance:
                                 description: The amount of enhanced structured building allowance.  The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                 type: number
@@ -16912,12 +16862,6 @@ paths:
                                       minimum: 0
                                       maximum: 99999999999.99
                                       example: '1000.45'
-                                    electricChargePointAllowance:
-                                      description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                      type: number
-                                      minimum: 0
-                                      maximum: 99999999999.99
-                                      example: '1000.45'
                                     structuredBuildingAllowance:
                                       description: The amount of structured building allowance. The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                       type: number
@@ -17124,12 +17068,6 @@ paths:
                                             example: '1000.45'
                                           otherCapitalAllowance:
                                             description: Other capital allowances. The value must be between 0 and 99999999999.99 up to 2 decimal places.
-                                            type: number
-                                            minimum: 0
-                                            maximum: 99999999999.99
-                                            example: '1000.45'
-                                          electricChargePointAllowance:
-                                            description: The expenditure incurred on electric charge-point equipment. The value must be between 0 and 99999999999.99 up to 2 decimal places.
                                             type: number
                                             minimum: 0
                                             maximum: 99999999999.99
@@ -19726,6 +19664,7 @@ paths:
                         otherPropertyIncome: 1000
                       expenses:
                         consolidatedExpenses: 999.99
+                        residentialFinancialCost: 999.99
               TY-2024-25 - Foreign Property EEA FHL Zero Adjustments:
                 value:
                   foreignFhlEea:
@@ -19752,6 +19691,18 @@ paths:
                           residentialFinancialCost: 9000
                           other: 1000
                           travelCosts: 99.99
+              TY-2024-25 - Foreign Property Consolidated Adjustment:
+                value:
+                  foreignProperty:
+                    countryLevelDetail:
+                      - countryCode: FRA
+                        income:
+                          totalRentsReceived: 1000.45
+                          premiumsOfLeaseGrant: -99.99
+                          otherPropertyIncome: 1000
+                        expenses:
+                          consolidatedExpenses: 999.99
+                          residentialFinancialCost: 999.99
               TY-2025-26 - Foreign Property Adjustment:
                 value:
                   foreignProperty:
@@ -19781,6 +19732,7 @@ paths:
                           otherPropertyIncome: 1000
                         expenses:
                           consolidatedExpenses: 999.99
+                          residentialFinancialCost: 999.99
               TY-2025-26  - Foreign Property Zero Adjustments:
                 value:
                   foreignProperty:
@@ -19814,6 +19766,7 @@ paths:
                           otherPropertyIncome: 1000
                         expenses:
                           consolidatedExpenses: 999.99
+                          residentialFinancialCost: 999.99
               TY-2026-27 onwards - Foreign Property Zero Adjustments:
                 value:
                   foreignProperty:
