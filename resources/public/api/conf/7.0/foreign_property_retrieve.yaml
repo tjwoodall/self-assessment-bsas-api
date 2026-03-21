@@ -124,17 +124,13 @@ get:
               externalValue: "./examples/retrieve_foreign_property/def2/retrieve_foreign_property_zero_adjustments.json"
             
             TY-2026-27-Foreign-Property:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def3/retrieve_foreign_property.json"
+              externalValue: "./examples/retrieve_foreign_property/def3/retrieve_foreign_property.json"
             TY-2026-27-Foreign-Property-Consolidated-Expenses:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def3/retrieve_foreign_property_consolidated.json"
+              externalValue: "./examples/retrieve_foreign_property/def3/retrieve_foreign_property_consolidated.json"
             TY-2026-27-Foreign-Property-with-Property-Allowance:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def3/retrieve_foreign_property_allowance.json"
+              externalValue: "./examples/retrieve_foreign_property/def3/retrieve_foreign_property_allowance.json"
             TY-2026-27-Foreign-Property-Zero-Adjustments:
-              value:
-                $ref: "./examples/retrieve_foreign_property/def3/retrieve_foreign_property_zero_adjustments.json"
+              externalValue: "./examples/retrieve_foreign_property/def3/retrieve_foreign_property_zero_adjustments.json"
             
     400:
       description: Bad request
