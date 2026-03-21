@@ -52,44 +52,31 @@ post:
             - $ref: "./schemas/submit_uk_property_accounting_adjustments/def3/request.json"
         examples:
           UK Property with Full Expenses for TY 2023-24 and before:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def1/submit_uk_property_accounting_adjustments_full_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def1/submit_uk_property_accounting_adjustments_full_request.json"
           UK Property with Consolidated Expenses for TY 2023-24 and before:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def1/submit_uk_property_accounting_adjustments_consolidated_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def1/submit_uk_property_accounting_adjustments_consolidated_request.json"
           UK FHL Property with Full Expenses for TY 2023-24 and before:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def1/submit_uk_fhl_property_accounting_adjustments_full_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def1/submit_uk_fhl_property_accounting_adjustments_full_request.json"
           UK FHL Property with Consolidated Expenses for TY 2023-24 and before:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def1/submit_uk_fhl_property_accounting_adjustments_consolidated_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def1/submit_uk_fhl_property_accounting_adjustments_consolidated_request.json"
           UK Property with Full Expenses for TY 2024-25:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def2/submit_uk_property_accounting_adjustments_full_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def2/submit_uk_property_accounting_adjustments_full_request.json"
           UK Property with Consolidated Expenses for TY 2024-25:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def2/submit_uk_property_accounting_adjustments_consolidated_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def2/submit_uk_property_accounting_adjustments_consolidated_request.json"
           UK FHL Property with Full Expenses for TY 2024-25:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def2/submit_uk_fhl_property_accounting_adjustments_full_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def2/submit_uk_fhl_property_accounting_adjustments_full_request.json"
           UK FHL Property with Consolidated Expenses for TY 2024-25:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def2/submit_uk_fhl_property_accounting_adjustments_consolidated_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def2/submit_uk_fhl_property_accounting_adjustments_consolidated_request.json"
           UK Property Zero Adjustments request for TY 2024-25:
-            value:
-              $ref: './examples/submit_uk_property_accounting_adjustments/def2/submit_uk_property_accounting_adjustments_zero.json'
+            externalValue: './examples/submit_uk_property_accounting_adjustments/def2/submit_uk_property_accounting_adjustments_zero.json'
           UK Property FHL Zero Adjustments request for TY 2024-25:
-            value:
-              $ref: './examples/submit_uk_property_accounting_adjustments/def2/submit_uk_fhl_property_accounting_adjustments_zero.json'
+            externalValue: './examples/submit_uk_property_accounting_adjustments/def2/submit_uk_fhl_property_accounting_adjustments_zero.json'
           UK Property with Full Expenses for TY 2025-26 and after:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def3/submit_uk_property_accounting_adjustments_full_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def3/submit_uk_property_accounting_adjustments_full_request.json"
           UK Property with Consolidated Expenses for TY-2025-26 and after:
-            value:
-              $ref: "./examples/submit_uk_property_accounting_adjustments/def3/submit_uk_property_accounting_adjustments_consolidated_request.json"
+            externalValue: "./examples/submit_uk_property_accounting_adjustments/def3/submit_uk_property_accounting_adjustments_consolidated_request.json"
           Zero Adjustments request for TY 2025-26 and after:
-            value:
-              $ref: './examples/submit_uk_property_accounting_adjustments/def3/submit_uk_property_accounting_adjustments_zero.json'
+            externalValue: './examples/submit_uk_property_accounting_adjustments/def3/submit_uk_property_accounting_adjustments_zero.json'
   responses:
     200:
       description: Success
