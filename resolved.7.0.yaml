@@ -17170,7 +17170,7 @@ paths:
                   additionalProperties: false
                   description: Retrieve a Foreign property Business Source Adjustable
                     Summary Response.
-                - title: "[Test only] TY 2026-27 onwards"
+                - title: TY 2026-27 onwards
                   required:
                   - adjustableSummaryCalculation
                   - inputs
@@ -20301,7 +20301,7 @@ paths:
                     description: object containing foreign property adjustments.
                 additionalProperties: false
                 description: Submit Foreign Property Accounting Adjustments Request
-              - title: "For TY 2026-27 and after  [Test only] "
+              - title: 'For TY 2026-27 and after '
                 type: object
                 properties:
                   foreignProperty:
@@ -34139,7 +34139,7 @@ components:
       description: Retrieve a Foreign property Business Source Adjustable Summary
         Response.
     retrieve_foreign_property_3:
-      title: "[Test only] TY 2026-27 onwards"
+      title: TY 2026-27 onwards
       required:
       - adjustableSummaryCalculation
       - inputs
@@ -36662,7 +36662,7 @@ components:
       additionalProperties: false
       description: Submit Foreign Property Accounting Adjustments Request
     request_10:
-      title: "For TY 2026-27 and after  [Test only] "
+      title: 'For TY 2026-27 and after '
       type: object
       properties:
         foreignProperty:
