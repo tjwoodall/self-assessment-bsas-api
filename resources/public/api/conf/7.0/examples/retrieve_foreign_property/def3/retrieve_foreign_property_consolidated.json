@@ -53,7 +53,7 @@
       {
         "propertyId": "717f3a7a-db8e-11e9-8a34-2a2ae2dbcce4",
         "income": {
-          "totalRentsReceived": -99999999999.99
+          "totalRentsReceived": 99999999999.99
         },
         "expenses": {
           "consolidatedExpenses": 0.12
