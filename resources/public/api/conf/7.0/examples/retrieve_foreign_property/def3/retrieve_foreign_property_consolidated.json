@@ -48,35 +48,35 @@
       {
         "propertyId": "717f3a7a-db8e-11e9-8a34-2a2ae2dbcce4",
         "income": {
-          "totalRentsReceived": -99999999999.99
+          "totalRentsReceived": 99999999999.99
         },
         "expenses": {
           "consolidatedExpenses": 0.12
         }
       }
-    ],
-    "adjustedSummaryCalculation": {
-      "totalIncome": 0.12,
-      "income": {
-        "totalRentsReceived": 0.12
-      },
-      "totalExpenses": -0.12,
-      "expenses": {
-        "consolidatedExpenses": 0.89
-      },
-      "netProfit": 0.12,
-      "totalAdditions": 0.12,
-      "additions": {
-        "privateUseAdjustment": 0.12,
-        "balancingCharge": 0.12
-      },
-      "totalDeductions": 0.12,
-      "deductions": {
-        "annualInvestmentAllowance": 0.12,
-        "otherCapitalAllowance": 0.12,
-        "zeroEmissionsCarAllowance": 0.12
-      },
-      "taxableProfit": 2500
-    }
+    ]
+  },
+  "adjustedSummaryCalculation": {
+    "totalIncome": 0.12,
+    "income": {
+      "totalRentsReceived": 0.12
+    },
+    "totalExpenses": -0.12,
+    "expenses": {
+      "consolidatedExpenses": 0.89
+    },
+    "netProfit": 0.12,
+    "totalAdditions": 0.12,
+    "additions": {
+      "privateUseAdjustment": 0.12,
+      "balancingCharge": 0.12
+    },
+    "totalDeductions": 0.12,
+    "deductions": {
+      "annualInvestmentAllowance": 0.12,
+      "otherCapitalAllowance": 0.12,
+      "zeroEmissionsCarAllowance": 0.12
+    },
+    "taxableProfit": 2500
   }
 }
