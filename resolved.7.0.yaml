@@ -20143,7 +20143,7 @@ paths:
                     description: Object holding FHL EEA adjustments.
                 additionalProperties: false
                 description: Submit Foreign Property Accounting Adjustments Request
-              - title: 'For TY 2025-26 '
+              - title: For TY 2025-26
                 type: object
                 properties:
                   foreignProperty:
@@ -20301,7 +20301,7 @@ paths:
                     description: object containing foreign property adjustments.
                 additionalProperties: false
                 description: Submit Foreign Property Accounting Adjustments Request
-              - title: 'For TY 2026-27 and after '
+              - title: For TY 2026-27 and after
                 type: object
                 properties:
                   foreignProperty:
@@ -20487,7 +20487,7 @@ paths:
               TY-2025-26 - Foreign Property Consolidated Adjustment:
                 value:
                   $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_consolidated_accounting_adjustments.json
-              TY-2025-26  - Foreign Property Zero Adjustments:
+              TY-2025-26 - Foreign Property Zero Adjustments:
                 value:
                   $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments_zero.json
               TY-2026-27 onwards - Foreign Property Adjustment:
@@ -36514,7 +36514,7 @@ components:
       additionalProperties: false
       description: Submit Foreign Property Accounting Adjustments Request
     request_9:
-      title: 'For TY 2025-26 '
+      title: For TY 2025-26
       type: object
       properties:
         foreignProperty:
@@ -36662,7 +36662,7 @@ components:
       additionalProperties: false
       description: Submit Foreign Property Accounting Adjustments Request
     request_10:
-      title: 'For TY 2026-27 and after '
+      title: For TY 2026-27 and after
       type: object
       properties:
         foreignProperty:
