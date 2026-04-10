@@ -14665,7 +14665,7 @@ paths:
                       additionalProperties: false
                   additionalProperties: false
                 - $schema: http://json-schema.org/draft-04/schema#
-                  title: 'For TY 2025-26 '
+                  title: For TY 2025-26
                   description: Submit Foreign Property Accounting Adjustments Request
                   type: object
                   properties:
@@ -14775,7 +14775,7 @@ paths:
                             - true
                   additionalProperties: false
                 - $schema: http://json-schema.org/draft-04/schema#
-                  title: 'For TY 2026-27 and after '
+                  title: For TY 2026-27 and after
                   description: Submit Foreign Property Accounting Adjustments Request
                   type: object
                   properties:
@@ -14915,7 +14915,7 @@ paths:
               TY-2025-26 - Foreign Property Consolidated Adjustment:
                 value:
                   $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_consolidated_accounting_adjustments.json
-              TY-2025-26  - Foreign Property Zero Adjustments:
+              TY-2025-26 - Foreign Property Zero Adjustments:
                 value:
                   $ref: ./examples/submit_foreign_property_accounting_adjustments/def3/submit_foreign_property_accounting_adjustments_zero.json
               TY-2026-27 onwards - Foreign Property Adjustment:
