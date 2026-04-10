@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "title": "For TY 2025-26 ",
+  "title": "For TY 2025-26",
   "description": "Submit Foreign Property Accounting Adjustments Request",
   "type": "object",
   "properties": {
