@@ -20634,11 +20634,11 @@ paths:
                     code: FORMAT_COUNTRY_CODE
                     message: The provided Country code is invalid
                 RULE_COUNTRY_CODE:
-                  description: Not a valid ISO 3166-1 alpha-3 country code.
+                  description: Not a permitted ISO 3166-1 alpha-3 country code.
                   value:
                     code: RULE_COUNTRY_CODE
-                    message: The country code is not a valid ISO 3166-1 alpha-3 country
-                      code
+                    message: The country code is not a permitted ISO 3166-1 alpha-3
+                      country code
                 RULE_SUMMARY_STATUS_INVALID:
                   description: The status of the summary with this calculation ID
                     is invalid.
@@ -37544,10 +37544,10 @@ components:
         code: FORMAT_COUNTRY_CODE
         message: The provided Country code is invalid
     ruleCountryCode:
-      description: Not a valid ISO 3166-1 alpha-3 country code.
+      description: Not a permitted ISO 3166-1 alpha-3 country code.
       value:
         code: RULE_COUNTRY_CODE
-        message: The country code is not a valid ISO 3166-1 alpha-3 country code
+        message: The country code is not a permitted ISO 3166-1 alpha-3 country code
     ruleDuplicateCountryCode:
       description: The same countryCode cannot be supplied multiple times.
       value:
