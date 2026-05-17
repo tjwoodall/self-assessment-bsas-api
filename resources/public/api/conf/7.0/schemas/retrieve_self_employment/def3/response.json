@@ -85,13 +85,13 @@
           "description": "The date the accounting period started. Date in the format YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should not be displayed to users of your software.</b>",
           "format": "date",
           "type": "string",
-          "example": "2021-22"
+          "example": "2021-12-22"
         },
         "accountingPeriodEndDate": {
           "description": "The date the accounting period ended. Date in the format YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should not be displayed to users of your software.</b>",
           "format": "date",
           "type": "string",
-          "example": "2022-23"
+          "example": "2022-12-22"
         },
         "source": {
           "type": "string",
