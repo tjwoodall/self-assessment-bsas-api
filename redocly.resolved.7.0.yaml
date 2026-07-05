@@ -1117,7 +1117,7 @@ paths:
 
         ### Test data
         Scenario simulation using Gov-Test-Scenario headers is only available in the sandbox environment.     
-         
+
         | Header Value (Gov-Test-Scenario)          | Scenario                                                                                                                              |
         |-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
         | N/A - DEFAULT                             | Simulates the scenario where no data is found.                                                                                        |
@@ -5538,7 +5538,7 @@ paths:
 
         ### Test data
         Scenario simulation using Gov-Test-Scenario headers is only available in the sandbox environment.  
-         
+
         | Header Value (Gov-Test-Scenario)                     | Scenario                                                                                                                     |
         |------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
         | N/A - DEFAULT                                        | Simulates success response.                                                                                                  |
@@ -9845,7 +9845,7 @@ paths:
 
         ### Test data
         Scenario simulation using Gov-Test-Scenario headers is only available in the sandbox environment.  
-         
+
         |  Tax Year                    | Header Value (Gov-Test-Scenario)              | Scenario                                                                                                                                 |
         | -----------------------------| --------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
         | All                          | N/A - DEFAULT                                 | Simulates the scenario where no data is found.                                                                                           |
