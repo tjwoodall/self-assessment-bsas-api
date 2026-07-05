@@ -1287,10 +1287,10 @@ paths:
       description: "This endpoint allows the user to request a specific Business Source\
         \ Adjustable Summary. \nA National Insurance number and Calculation id must\
         \ be provided.\n\n### Test data\nScenario simulation using Gov-Test-Scenario\
-        \ headers is only available in the sandbox environment.     \n \n| Header\
-        \ Value (Gov-Test-Scenario)          | Scenario                          \
+        \ headers is only available in the sandbox environment.     \n\n| Header Value\
+        \ (Gov-Test-Scenario)          | Scenario                                \
         \                                                                        \
-        \                            |\n|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|\n\
+        \                      |\n|-------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|\n\
         | N/A - DEFAULT                             | Simulates the scenario where\
         \ no data is found.                                                      \
         \                                  |\n| SELF_EMPLOYMENT_PROFIT           \
@@ -7293,9 +7293,9 @@ paths:
         \ and it must \nnot have been adjusted previously. A National Insurance number\
         \ and calculation ID must be provided.\n\n### Test data\nScenario simulation\
         \ using Gov-Test-Scenario headers is only available in the sandbox environment.\
-        \  \n \n| Header Value (Gov-Test-Scenario)                     | Scenario\
+        \  \n\n| Header Value (Gov-Test-Scenario)                     | Scenario \
         \                                                                        \
-        \                                             |\n|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|\n\
+        \                                            |\n|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|\n\
         | N/A - DEFAULT                                        | Simulates success\
         \ response.                                                              \
         \                                    |\n| TYPE_OF_BUSINESS_INCORRECT     \
@@ -13299,7 +13299,7 @@ paths:
         \ are not currently in use and will not be returned \nin a live environment.\
         \ These fields will be removed in the near future.\n\n### Test data\nScenario\
         \ simulation using Gov-Test-Scenario headers is only available in the sandbox\
-        \ environment.  \n \n|  Tax Year                    | Header Value (Gov-Test-Scenario)\
+        \ environment.  \n\n|  Tax Year                    | Header Value (Gov-Test-Scenario)\
         \              | Scenario                                                \
         \                                                                        \
         \         |\n| -----------------------------| ---------------------------------------------\
