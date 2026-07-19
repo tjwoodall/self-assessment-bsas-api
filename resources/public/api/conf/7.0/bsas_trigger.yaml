@@ -52,7 +52,6 @@ post:
           UK Property Trigger for TY 2025-26 and after:
             externalValue: "./examples/trigger/def2/trigger_uk_property_request.json"
           Foreign Property Trigger for TY 2024-25 and before:
-            description:
             externalValue: "./examples/trigger/def1/trigger_foreign_property_request.json"
           Foreign Property Trigger for TY 2025-26 and after:
             externalValue: "./examples/trigger/def2/trigger_foreign_property_request.json"
