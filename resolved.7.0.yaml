@@ -2677,11 +2677,11 @@ paths:
                             consolidatedExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Sum of all expenses for the specified period.
-                                The value must be between 0 and 99999999999.99 up
-                                to 2 decimal places.
+                                The value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             costOfGoods:
                               multipleOf: 0.01
@@ -2696,32 +2696,32 @@ paths:
                             paymentsToSubcontractors:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Construction industry – payments to subcontractors.
                                 Expenses associated with the running of the business.
-                                The value must be between 0 and 99999999999.99 up
-                                to 2 decimal places.
+                                The value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             wagesAndStaffCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Wages, salaries and other staff costs.\
                                 \ Expenses associated with the running of the business.\
-                                \ The value must be between 0 and 99999999999.99 up\
-                                \ to 2 decimal places."
+                                \ The value must be between -99999999999.99 and 99999999999.99\
+                                \ up to 2 decimal places."
                               example: 1000.45
                             carVanTravelExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Car, van and travel expenses. Expenses\
                                 \ associated with the running of the business. The\
-                                \ value must be between 0 and 99999999999.99 up to\
-                                \ 2 decimal places."
+                                \ value must be between -99999999999.99 and 99999999999.99\
+                                \ up to 2 decimal places."
                               example: 1000.45
                             premisesRunningCosts:
                               multipleOf: 0.01
@@ -2746,12 +2746,12 @@ paths:
                             adminCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Phone, fax, stationery and other office\
                                 \ costs. Expenses associated with the running of the\
-                                \ business. The value must be between 0 and 99999999999.99\
-                                \ up to 2 decimal places."
+                                \ business. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             interestOnBankOtherLoans:
                               multipleOf: 0.01
@@ -2806,30 +2806,31 @@ paths:
                             otherExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Expenses associated with the running of
-                                the business. The value must be between 0 and 99999999999.99
-                                up to 2 decimal places.
+                                the business. The value must be between -99999999999.99
+                                and 99999999999.99 up to 2 decimal places.
                               example: 1000.45
                             advertisingCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Advertising costs. Expenses associated
                                 with the running of the business. The value must be
-                                between 0 and 99999999999.99 up to 2 decimal places.
+                                between -99999999999.99 and 99999999999.99 up to 2
+                                decimal places.
                               example: 1000.45
                             businessEntertainmentCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Business entertainment costs. Expenses
                                 associated with the running of the business. The value
-                                must be between 0 and 99999999999.99 up to 2 decimal
-                                places.
+                                must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                           additionalProperties: false
                           description: Object containing the expenses for self-employment
@@ -2876,33 +2877,33 @@ paths:
                             paymentsToSubcontractorsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Payments to subcontractors - Construction
                                 Industry Scheme (CIS). Any expense or partial expense
                                 that cannot be claimed for tax purposes. The value
-                                must be between 0 and 99999999999.99 up to 2 decimal
-                                places.
+                                must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             wagesAndStaffCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Wages, salaries and other staff costs.\
                                 \ Any expense or partial expense that cannot be claimed\
-                                \ for tax purposes. The value must be between 0 and\
-                                \ 99999999999.99 up to 2 decimal places."
+                                \ for tax purposes. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             carVanTravelExpensesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Car, van and travel expenses. Any expense\
                                 \ or partial expense that cannot be claimed for tax\
-                                \ purposes. The value must be between 0 and 99999999999.99\
-                                \ up to 2 decimal places."
+                                \ purposes. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             premisesRunningCostsDisallowable:
                               multipleOf: 0.01
@@ -2927,12 +2928,13 @@ paths:
                             adminCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Phone, fax, stationery and other office\
                                 \ costs. Any expense or partial expense that cannot\
                                 \ be claimed for tax purposes. The value must be between\
-                                \ 0 and 99999999999.99 up to 2 decimal places."
+                                \ -99999999999.99 and 99999999999.99 up to 2 decimal\
+                                \ places."
                               example: 1000.45
                             interestOnBankOtherLoansDisallowable:
                               multipleOf: 0.01
@@ -2968,12 +2970,13 @@ paths:
                             professionalFeesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Accountancy, legal and other professional\
                                 \ fees. Any expense or partial expense that cannot\
                                 \ be claimed for tax purposes. The value must be between\
-                                \ 0 and 99999999999.99 up to 2 decimal places."
+                                \ -99999999999.99 and 99999999999.99 up to 2 decimal\
+                                \ places."
                               example: 1000.45
                             depreciationDisallowable:
                               multipleOf: 0.01
@@ -2989,31 +2992,32 @@ paths:
                             otherExpensesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Any expense or partial expense that cannot
                                 be claimed for tax purposes. The value must be between
-                                0 and 99999999999.99 up to 2 decimal places.
+                                -99999999999.99 and 99999999999.99 up to 2 decimal
+                                places.
                               example: 1000.45
                             advertisingCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Advertising costs. Any expense or partial
                                 expense that cannot be claimed for tax purposes. The
-                                value must be between 0 and 99999999999.99 up to 2
-                                decimal places.
+                                value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             businessEntertainmentCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Business entertainment costs. Any expense
                                 or partial expense that cannot be claimed for tax
-                                purposes. The value must be between 0 and 99999999999.99
-                                up to 2 decimal places.
+                                purposes. The value must be between -99999999999.99
+                                and 99999999999.99 up to 2 decimal places.
                               example: 1000.45
                             outstandingBusinessIncome:
                               multipleOf: 0.01
@@ -4530,11 +4534,11 @@ paths:
                             consolidatedExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Sum of all expenses for the specified period.
-                                The value must be between 0 and 99999999999.99 up
-                                to 2 decimal places.
+                                The value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             costOfGoods:
                               multipleOf: 0.01
@@ -4549,32 +4553,32 @@ paths:
                             paymentsToSubcontractors:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Construction industry – payments to subcontractors.
                                 Expenses associated with the running of the business.
-                                The value must be between 0 and 99999999999.99 up
-                                to 2 decimal places.
+                                The value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             wagesAndStaffCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Wages, salaries and other staff costs.\
                                 \ Expenses associated with the running of the business.\
-                                \ The value must be between 0 and 99999999999.99 up\
-                                \ to 2 decimal places."
+                                \ The value must be between -99999999999.99 and 99999999999.99\
+                                \ up to 2 decimal places."
                               example: 1000.45
                             carVanTravelExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Car, van and travel expenses. Expenses\
                                 \ associated with the running of the business. The\
-                                \ value must be between 0 and 99999999999.99 up to\
-                                \ 2 decimal places."
+                                \ value must be between -99999999999.99 and 99999999999.99\
+                                \ up to 2 decimal places."
                               example: 1000.45
                             premisesRunningCosts:
                               multipleOf: 0.01
@@ -4599,12 +4603,12 @@ paths:
                             adminCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Phone, fax, stationery and other office\
                                 \ costs. Expenses associated with the running of the\
-                                \ business. The value must be between 0 and 99999999999.99\
-                                \ up to 2 decimal places."
+                                \ business. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             interestOnBankOtherLoans:
                               multipleOf: 0.01
@@ -4659,30 +4663,31 @@ paths:
                             otherExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Expenses associated with the running of
-                                the business. The value must be between 0 and 99999999999.99
-                                up to 2 decimal places.
+                                the business. The value must be between -99999999999.99
+                                and 99999999999.99 up to 2 decimal places.
                               example: 1000.45
                             advertisingCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Advertising costs. Expenses associated
                                 with the running of the business. The value must be
-                                between 0 and 99999999999.99 up to 2 decimal places.
+                                between -99999999999.99 and 99999999999.99 up to 2
+                                decimal places.
                               example: 1000.45
                             businessEntertainmentCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Business entertainment costs. Expenses
                                 associated with the running of the business. The value
-                                must be between 0 and 99999999999.99 up to 2 decimal
-                                places.
+                                must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                           additionalProperties: false
                           description: Object containing the expenses for self-employment
@@ -4729,33 +4734,33 @@ paths:
                             paymentsToSubcontractorsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Payments to subcontractors - Construction
                                 Industry Scheme (CIS). Any expense or partial expense
                                 that cannot be claimed for tax purposes. The value
-                                must be between 0 and 99999999999.99 up to 2 decimal
-                                places.
+                                must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             wagesAndStaffCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Wages, salaries and other staff costs.\
                                 \ Any expense or partial expense that cannot be claimed\
-                                \ for tax purposes. The value must be between 0 and\
-                                \ 99999999999.99 up to 2 decimal places."
+                                \ for tax purposes. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             carVanTravelExpensesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Car, van and travel expenses. Any expense\
                                 \ or partial expense that cannot be claimed for tax\
-                                \ purposes. The value must be between 0 and 99999999999.99\
-                                \ up to 2 decimal places."
+                                \ purposes. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             premisesRunningCostsDisallowable:
                               multipleOf: 0.01
@@ -4780,12 +4785,13 @@ paths:
                             adminCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Phone, fax, stationery and other office\
                                 \ costs. Any expense or partial expense that cannot\
                                 \ be claimed for tax purposes. The value must be between\
-                                \ 0 and 99999999999.99 up to 2 decimal places."
+                                \ -99999999999.99 and 99999999999.99 up to 2 decimal\
+                                \ places."
                               example: 1000.45
                             interestOnBankOtherLoansDisallowable:
                               multipleOf: 0.01
@@ -4821,12 +4827,13 @@ paths:
                             professionalFeesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Accountancy, legal and other professional\
                                 \ fees. Any expense or partial expense that cannot\
                                 \ be claimed for tax purposes. The value must be between\
-                                \ 0 and 99999999999.99 up to 2 decimal places."
+                                \ -99999999999.99 and 99999999999.99 up to 2 decimal\
+                                \ places."
                               example: 1000.45
                             depreciationDisallowable:
                               multipleOf: 0.01
@@ -4842,31 +4849,32 @@ paths:
                             otherExpensesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Any expense or partial expense that cannot
                                 be claimed for tax purposes. The value must be between
-                                0 and 99999999999.99 up to 2 decimal places.
+                                -99999999999.99 and 99999999999.99 up to 2 decimal
+                                places.
                               example: 1000.45
                             advertisingCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Advertising costs. Any expense or partial
                                 expense that cannot be claimed for tax purposes. The
-                                value must be between 0 and 99999999999.99 up to 2
-                                decimal places.
+                                value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             businessEntertainmentCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Business entertainment costs. Any expense
                                 or partial expense that cannot be claimed for tax
-                                purposes. The value must be between 0 and 99999999999.99
-                                up to 2 decimal places.
+                                purposes. The value must be between -99999999999.99
+                                and 99999999999.99 up to 2 decimal places.
                               example: 1000.45
                             outstandingBusinessIncome:
                               multipleOf: 0.01
@@ -6379,11 +6387,11 @@ paths:
                             consolidatedExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Sum of all expenses for the specified period.
-                                The value must be between 0 and 99999999999.99 up
-                                to 2 decimal places.
+                                The value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             costOfGoods:
                               multipleOf: 0.01
@@ -6398,32 +6406,32 @@ paths:
                             paymentsToSubcontractors:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Construction industry – payments to subcontractors.
                                 Expenses associated with the running of the business.
-                                The value must be between 0 and 99999999999.99 up
-                                to 2 decimal places.
+                                The value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             wagesAndStaffCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Wages, salaries and other staff costs.\
                                 \ Expenses associated with the running of the business.\
-                                \ The value must be between 0 and 99999999999.99 up\
-                                \ to 2 decimal places."
+                                \ The value must be between -99999999999.99 and 99999999999.99\
+                                \ up to 2 decimal places."
                               example: 1000.45
                             carVanTravelExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Car, van and travel expenses. Expenses\
                                 \ associated with the running of the business. The\
-                                \ value must be between 0 and 99999999999.99 up to\
-                                \ 2 decimal places."
+                                \ value must be between -99999999999.99 and 99999999999.99\
+                                \ up to 2 decimal places."
                               example: 1000.45
                             premisesRunningCosts:
                               multipleOf: 0.01
@@ -6448,12 +6456,12 @@ paths:
                             adminCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Phone, fax, stationery and other office\
                                 \ costs. Expenses associated with the running of the\
-                                \ business. The value must be between 0 and 99999999999.99\
-                                \ up to 2 decimal places."
+                                \ business. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             interestOnBankOtherLoans:
                               multipleOf: 0.01
@@ -6508,30 +6516,31 @@ paths:
                             otherExpenses:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Expenses associated with the running of
-                                the business. The value must be between 0 and 99999999999.99
-                                up to 2 decimal places.
+                                the business. The value must be between -99999999999.99
+                                and 99999999999.99 up to 2 decimal places.
                               example: 1000.45
                             advertisingCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Advertising costs. Expenses associated
                                 with the running of the business. The value must be
-                                between 0 and 99999999999.99 up to 2 decimal places.
+                                between -99999999999.99 and 99999999999.99 up to 2
+                                decimal places.
                               example: 1000.45
                             businessEntertainmentCosts:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Business entertainment costs. Expenses
                                 associated with the running of the business. The value
-                                must be between 0 and 99999999999.99 up to 2 decimal
-                                places.
+                                must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                           additionalProperties: false
                           description: Object containing the expenses for self-employment
@@ -6598,33 +6607,33 @@ paths:
                             paymentsToSubcontractorsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Payments to subcontractors - Construction
                                 Industry Scheme (CIS). Any expense or partial expense
                                 that cannot be claimed for tax purposes. The value
-                                must be between 0 and 99999999999.99 up to 2 decimal
-                                places.
+                                must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             wagesAndStaffCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Wages, salaries and other staff costs.\
                                 \ Any expense or partial expense that cannot be claimed\
-                                \ for tax purposes. The value must be between 0 and\
-                                \ 99999999999.99 up to 2 decimal places."
+                                \ for tax purposes. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             carVanTravelExpensesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Car, van and travel expenses. Any expense\
                                 \ or partial expense that cannot be claimed for tax\
-                                \ purposes. The value must be between 0 and 99999999999.99\
-                                \ up to 2 decimal places."
+                                \ purposes. The value must be between -99999999999.99\
+                                \ and 99999999999.99 up to 2 decimal places."
                               example: 1000.45
                             premisesRunningCostsDisallowable:
                               multipleOf: 0.01
@@ -6649,12 +6658,13 @@ paths:
                             adminCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Phone, fax, stationery and other office\
                                 \ costs. Any expense or partial expense that cannot\
                                 \ be claimed for tax purposes. The value must be between\
-                                \ 0 and 99999999999.99 up to 2 decimal places."
+                                \ -99999999999.99 and 99999999999.99 up to 2 decimal\
+                                \ places."
                               example: 1000.45
                             interestOnBankOtherLoansDisallowable:
                               multipleOf: 0.01
@@ -6690,12 +6700,13 @@ paths:
                             professionalFeesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: "Accountancy, legal and other professional\
                                 \ fees. Any expense or partial expense that cannot\
                                 \ be claimed for tax purposes. The value must be between\
-                                \ 0 and 99999999999.99 up to 2 decimal places."
+                                \ -99999999999.99 and 99999999999.99 up to 2 decimal\
+                                \ places."
                               example: 1000.45
                             depreciationDisallowable:
                               multipleOf: 0.01
@@ -6711,31 +6722,32 @@ paths:
                             otherExpensesDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Any expense or partial expense that cannot
                                 be claimed for tax purposes. The value must be between
-                                0 and 99999999999.99 up to 2 decimal places.
+                                -99999999999.99 and 99999999999.99 up to 2 decimal
+                                places.
                               example: 1000.45
                             advertisingCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Advertising costs. Any expense or partial
                                 expense that cannot be claimed for tax purposes. The
-                                value must be between 0 and 99999999999.99 up to 2
-                                decimal places.
+                                value must be between -99999999999.99 and 99999999999.99
+                                up to 2 decimal places.
                               example: 1000.45
                             businessEntertainmentCostsDisallowable:
                               multipleOf: 0.01
                               maximum: 99999999999.99
-                              minimum: 0
+                              minimum: -99999999999.99
                               type: number
                               description: Business entertainment costs. Any expense
                                 or partial expense that cannot be claimed for tax
-                                purposes. The value must be between 0 and 99999999999.99
-                                up to 2 decimal places.
+                                purposes. The value must be between -99999999999.99
+                                and 99999999999.99 up to 2 decimal places.
                               example: 1000.45
                             balancingChargeOther:
                               multipleOf: 0.01
@@ -23894,10 +23906,11 @@ components:
                 consolidatedExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Sum of all expenses for the specified period. The value
-                    must be between 0 and 99999999999.99 up to 2 decimal places.
+                    must be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 costOfGoods:
                   multipleOf: 0.01
@@ -23911,29 +23924,30 @@ components:
                 paymentsToSubcontractors:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Construction industry – payments to subcontractors.
                     Expenses associated with the running of the business. The value
-                    must be between 0 and 99999999999.99 up to 2 decimal places.
+                    must be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 wagesAndStaffCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Wages, salaries and other staff costs. Expenses associated\
                     \ with the running of the business. The value must be between\
-                    \ 0 and 99999999999.99 up to 2 decimal places."
+                    \ -99999999999.99 and 99999999999.99 up to 2 decimal places."
                   example: 1000.45
                 carVanTravelExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Car, van and travel expenses. Expenses associated\
                     \ with the running of the business. The value must be between\
-                    \ 0 and 99999999999.99 up to 2 decimal places."
+                    \ -99999999999.99 and 99999999999.99 up to 2 decimal places."
                   example: 1000.45
                 premisesRunningCosts:
                   multipleOf: 0.01
@@ -23956,11 +23970,12 @@ components:
                 adminCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Phone, fax, stationery and other office costs. Expenses\
                     \ associated with the running of the business. The value must\
-                    \ be between 0 and 99999999999.99 up to 2 decimal places."
+                    \ be between -99999999999.99 and 99999999999.99 up to 2 decimal\
+                    \ places."
                   example: 1000.45
                 interestOnBankOtherLoans:
                   multipleOf: 0.01
@@ -24012,29 +24027,29 @@ components:
                 otherExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Expenses associated with the running of the business.
-                    The value must be between 0 and 99999999999.99 up to 2 decimal
-                    places.
+                    The value must be between -99999999999.99 and 99999999999.99 up
+                    to 2 decimal places.
                   example: 1000.45
                 advertisingCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Advertising costs. Expenses associated with the running
-                    of the business. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    of the business. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 businessEntertainmentCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Business entertainment costs. Expenses associated with
-                    the running of the business. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    the running of the business. The value must be between -99999999999.99
+                    and 99999999999.99 up to 2 decimal places.
                   example: 1000.45
               additionalProperties: false
               description: Object containing the expenses for self-employment income
@@ -24080,31 +24095,32 @@ components:
                 paymentsToSubcontractorsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Payments to subcontractors - Construction Industry
                     Scheme (CIS). Any expense or partial expense that cannot be claimed
-                    for tax purposes. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    for tax purposes. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 wagesAndStaffCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Wages, salaries and other staff costs. Any expense\
                     \ or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 carVanTravelExpensesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Car, van and travel expenses. Any expense or partial\
                     \ expense that cannot be claimed for tax purposes. The value must\
-                    \ be between 0 and 99999999999.99 up to 2 decimal places."
+                    \ be between -99999999999.99 and 99999999999.99 up to 2 decimal\
+                    \ places."
                   example: 1000.45
                 premisesRunningCostsDisallowable:
                   multipleOf: 0.01
@@ -24129,12 +24145,12 @@ components:
                 adminCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Phone, fax, stationery and other office costs. Any\
                     \ expense or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 interestOnBankOtherLoansDisallowable:
                   multipleOf: 0.01
@@ -24169,12 +24185,12 @@ components:
                 professionalFeesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Accountancy, legal and other professional fees. Any\
                     \ expense or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 depreciationDisallowable:
                   multipleOf: 0.01
@@ -24189,29 +24205,30 @@ components:
                 otherExpensesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Any expense or partial expense that cannot be claimed
-                    for tax purposes. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    for tax purposes. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 advertisingCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Advertising costs. Any expense or partial expense that
                     cannot be claimed for tax purposes. The value must be between
-                    0 and 99999999999.99 up to 2 decimal places.
+                    -99999999999.99 and 99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 businessEntertainmentCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Business entertainment costs. Any expense or partial
                     expense that cannot be claimed for tax purposes. The value must
-                    be between 0 and 99999999999.99 up to 2 decimal places.
+                    be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 outstandingBusinessIncome:
                   multipleOf: 0.01
@@ -25631,10 +25648,11 @@ components:
                 consolidatedExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Sum of all expenses for the specified period. The value
-                    must be between 0 and 99999999999.99 up to 2 decimal places.
+                    must be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 costOfGoods:
                   multipleOf: 0.01
@@ -25648,29 +25666,30 @@ components:
                 paymentsToSubcontractors:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Construction industry – payments to subcontractors.
                     Expenses associated with the running of the business. The value
-                    must be between 0 and 99999999999.99 up to 2 decimal places.
+                    must be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 wagesAndStaffCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Wages, salaries and other staff costs. Expenses associated\
                     \ with the running of the business. The value must be between\
-                    \ 0 and 99999999999.99 up to 2 decimal places."
+                    \ -99999999999.99 and 99999999999.99 up to 2 decimal places."
                   example: 1000.45
                 carVanTravelExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Car, van and travel expenses. Expenses associated\
                     \ with the running of the business. The value must be between\
-                    \ 0 and 99999999999.99 up to 2 decimal places."
+                    \ -99999999999.99 and 99999999999.99 up to 2 decimal places."
                   example: 1000.45
                 premisesRunningCosts:
                   multipleOf: 0.01
@@ -25693,11 +25712,12 @@ components:
                 adminCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Phone, fax, stationery and other office costs. Expenses\
                     \ associated with the running of the business. The value must\
-                    \ be between 0 and 99999999999.99 up to 2 decimal places."
+                    \ be between -99999999999.99 and 99999999999.99 up to 2 decimal\
+                    \ places."
                   example: 1000.45
                 interestOnBankOtherLoans:
                   multipleOf: 0.01
@@ -25749,29 +25769,29 @@ components:
                 otherExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Expenses associated with the running of the business.
-                    The value must be between 0 and 99999999999.99 up to 2 decimal
-                    places.
+                    The value must be between -99999999999.99 and 99999999999.99 up
+                    to 2 decimal places.
                   example: 1000.45
                 advertisingCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Advertising costs. Expenses associated with the running
-                    of the business. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    of the business. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 businessEntertainmentCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Business entertainment costs. Expenses associated with
-                    the running of the business. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    the running of the business. The value must be between -99999999999.99
+                    and 99999999999.99 up to 2 decimal places.
                   example: 1000.45
               additionalProperties: false
               description: Object containing the expenses for self-employment income
@@ -25817,31 +25837,32 @@ components:
                 paymentsToSubcontractorsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Payments to subcontractors - Construction Industry
                     Scheme (CIS). Any expense or partial expense that cannot be claimed
-                    for tax purposes. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    for tax purposes. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 wagesAndStaffCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Wages, salaries and other staff costs. Any expense\
                     \ or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 carVanTravelExpensesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Car, van and travel expenses. Any expense or partial\
                     \ expense that cannot be claimed for tax purposes. The value must\
-                    \ be between 0 and 99999999999.99 up to 2 decimal places."
+                    \ be between -99999999999.99 and 99999999999.99 up to 2 decimal\
+                    \ places."
                   example: 1000.45
                 premisesRunningCostsDisallowable:
                   multipleOf: 0.01
@@ -25866,12 +25887,12 @@ components:
                 adminCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Phone, fax, stationery and other office costs. Any\
                     \ expense or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 interestOnBankOtherLoansDisallowable:
                   multipleOf: 0.01
@@ -25906,12 +25927,12 @@ components:
                 professionalFeesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Accountancy, legal and other professional fees. Any\
                     \ expense or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 depreciationDisallowable:
                   multipleOf: 0.01
@@ -25926,29 +25947,30 @@ components:
                 otherExpensesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Any expense or partial expense that cannot be claimed
-                    for tax purposes. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    for tax purposes. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 advertisingCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Advertising costs. Any expense or partial expense that
                     cannot be claimed for tax purposes. The value must be between
-                    0 and 99999999999.99 up to 2 decimal places.
+                    -99999999999.99 and 99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 businessEntertainmentCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Business entertainment costs. Any expense or partial
                     expense that cannot be claimed for tax purposes. The value must
-                    be between 0 and 99999999999.99 up to 2 decimal places.
+                    be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 outstandingBusinessIncome:
                   multipleOf: 0.01
@@ -27362,10 +27384,11 @@ components:
                 consolidatedExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Sum of all expenses for the specified period. The value
-                    must be between 0 and 99999999999.99 up to 2 decimal places.
+                    must be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 costOfGoods:
                   multipleOf: 0.01
@@ -27379,29 +27402,30 @@ components:
                 paymentsToSubcontractors:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Construction industry – payments to subcontractors.
                     Expenses associated with the running of the business. The value
-                    must be between 0 and 99999999999.99 up to 2 decimal places.
+                    must be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 wagesAndStaffCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Wages, salaries and other staff costs. Expenses associated\
                     \ with the running of the business. The value must be between\
-                    \ 0 and 99999999999.99 up to 2 decimal places."
+                    \ -99999999999.99 and 99999999999.99 up to 2 decimal places."
                   example: 1000.45
                 carVanTravelExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Car, van and travel expenses. Expenses associated\
                     \ with the running of the business. The value must be between\
-                    \ 0 and 99999999999.99 up to 2 decimal places."
+                    \ -99999999999.99 and 99999999999.99 up to 2 decimal places."
                   example: 1000.45
                 premisesRunningCosts:
                   multipleOf: 0.01
@@ -27424,11 +27448,12 @@ components:
                 adminCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Phone, fax, stationery and other office costs. Expenses\
                     \ associated with the running of the business. The value must\
-                    \ be between 0 and 99999999999.99 up to 2 decimal places."
+                    \ be between -99999999999.99 and 99999999999.99 up to 2 decimal\
+                    \ places."
                   example: 1000.45
                 interestOnBankOtherLoans:
                   multipleOf: 0.01
@@ -27480,29 +27505,29 @@ components:
                 otherExpenses:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Expenses associated with the running of the business.
-                    The value must be between 0 and 99999999999.99 up to 2 decimal
-                    places.
+                    The value must be between -99999999999.99 and 99999999999.99 up
+                    to 2 decimal places.
                   example: 1000.45
                 advertisingCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Advertising costs. Expenses associated with the running
-                    of the business. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    of the business. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 businessEntertainmentCosts:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Business entertainment costs. Expenses associated with
-                    the running of the business. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    the running of the business. The value must be between -99999999999.99
+                    and 99999999999.99 up to 2 decimal places.
                   example: 1000.45
               additionalProperties: false
               description: Object containing the expenses for self-employment income
@@ -27566,31 +27591,32 @@ components:
                 paymentsToSubcontractorsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Payments to subcontractors - Construction Industry
                     Scheme (CIS). Any expense or partial expense that cannot be claimed
-                    for tax purposes. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    for tax purposes. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 wagesAndStaffCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Wages, salaries and other staff costs. Any expense\
                     \ or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 carVanTravelExpensesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Car, van and travel expenses. Any expense or partial\
                     \ expense that cannot be claimed for tax purposes. The value must\
-                    \ be between 0 and 99999999999.99 up to 2 decimal places."
+                    \ be between -99999999999.99 and 99999999999.99 up to 2 decimal\
+                    \ places."
                   example: 1000.45
                 premisesRunningCostsDisallowable:
                   multipleOf: 0.01
@@ -27615,12 +27641,12 @@ components:
                 adminCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Phone, fax, stationery and other office costs. Any\
                     \ expense or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 interestOnBankOtherLoansDisallowable:
                   multipleOf: 0.01
@@ -27655,12 +27681,12 @@ components:
                 professionalFeesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: "Accountancy, legal and other professional fees. Any\
                     \ expense or partial expense that cannot be claimed for tax purposes.\
-                    \ The value must be between 0 and 99999999999.99 up to 2 decimal\
-                    \ places."
+                    \ The value must be between -99999999999.99 and 99999999999.99\
+                    \ up to 2 decimal places."
                   example: 1000.45
                 depreciationDisallowable:
                   multipleOf: 0.01
@@ -27675,29 +27701,30 @@ components:
                 otherExpensesDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Any expense or partial expense that cannot be claimed
-                    for tax purposes. The value must be between 0 and 99999999999.99
-                    up to 2 decimal places.
+                    for tax purposes. The value must be between -99999999999.99 and
+                    99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 advertisingCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Advertising costs. Any expense or partial expense that
                     cannot be claimed for tax purposes. The value must be between
-                    0 and 99999999999.99 up to 2 decimal places.
+                    -99999999999.99 and 99999999999.99 up to 2 decimal places.
                   example: 1000.45
                 businessEntertainmentCostsDisallowable:
                   multipleOf: 0.01
                   maximum: 99999999999.99
-                  minimum: 0
+                  minimum: -99999999999.99
                   type: number
                   description: Business entertainment costs. Any expense or partial
                     expense that cannot be claimed for tax purposes. The value must
-                    be between 0 and 99999999999.99 up to 2 decimal places.
+                    be between -99999999999.99 and 99999999999.99 up to 2 decimal
+                    places.
                   example: 1000.45
                 balancingChargeOther:
                   multipleOf: 0.01
