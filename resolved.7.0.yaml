@@ -251,16 +251,16 @@ paths:
                                 pattern: "^2[0-9]{3}-[0-9]{2}-[0-9]{2}$"
                                 type: string
                                 description: The date the accounting period began.
-                                example: 2018-05-01
+                                  This must be the 6th of April.
+                                example: 2018-04-06
                               endDate:
                                 pattern: "^2[0-9]{3}-[0-9]{2}-[0-9]{2}$"
                                 type: string
                                 description: The date the accounting period finished.
-                                  The accounting period must end in the tax year to
-                                  which it is assigned. For MTD submissions 2019-20
-                                  is the earliest tax year in which an accounting
+                                  This must be the 5th April. For MTD submissions
+                                  2019-20 is the earliest tax year in which an accounting
                                   period can end.
-                                example: 2019-04-30
+                                example: 2019-04-05
                             additionalProperties: false
                             description: |-
                               The duration of the business income source operations to be included in the tax year submission. 2019-20 is the earliest tax year to which the accounting period can be assigned.
@@ -370,16 +370,16 @@ paths:
                                 pattern: "^2[0-9]{3}-[0-9]{2}-[0-9]{2}$"
                                 type: string
                                 description: The date the accounting period began.
-                                example: 2018-05-01
+                                  This must be the 6th of April.
+                                example: 2018-04-06
                               endDate:
                                 pattern: "^2[0-9]{3}-[0-9]{2}-[0-9]{2}$"
                                 type: string
                                 description: The date the accounting period finished.
-                                  The accounting period must end in the tax year to
-                                  which it is assigned. For MTD submissions 2019-20
-                                  is the earliest tax year in which an accounting
+                                  This must be the 5th April. For MTD submissions
+                                  2019-20 is the earliest tax year in which an accounting
                                   period can end.
-                                example: 2019-04-30
+                                example: 2019-04-05
                             additionalProperties: false
                             description: |-
                               The duration of the business income source operations to be included in the tax year submission. 2019-20 is the earliest tax year to which the accounting period can be assigned.
@@ -1525,17 +1525,19 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2022-04-05
                         source:
                           type: string
                           description: Specifies the source of the income data used
@@ -3373,17 +3375,19 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2022-04-05
                         source:
                           type: string
                           description: Specifies the source of the income data used
@@ -5232,17 +5236,19 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2022-04-05
                         source:
                           type: string
                           description: Specifies the source of the income data used
@@ -8819,17 +8825,19 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2022-04-05
                         source:
                           type: string
                           description: Specifies the source of the income data used
@@ -9843,17 +9851,19 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2022-04-05
                         source:
                           type: string
                           description: Specifies the source of the income data used
@@ -10863,17 +10873,19 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
+                          example: 2022-04-05
                         source:
                           type: string
                           description: Specifies the source of the income data used
@@ -13573,17 +13585,17 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
                           example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
                           example: 2022-04-05
                         source:
@@ -15265,17 +15277,17 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
                           example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
                           example: 2022-04-05
                         source:
@@ -16955,17 +16967,17 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
                           example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
                           example: 2022-04-05
                         source:
@@ -18514,17 +18526,17 @@ paths:
                         accountingPeriodStartDate:
                           type: string
                           description: "The date the accounting period started. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 6th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
                           example: 2021-04-06
                         accountingPeriodEndDate:
                           type: string
                           description: "The date the accounting period ended. Date\
-                            \ in the format YYYY-MM-DD. \n\nNote: <b>Accounting period\
-                            \ start and end dates should not be displayed to users\
-                            \ of your software.</b>"
+                            \ in the format YYYY-MM-DD. This must be 5th April. \n\
+                            \nNote: <b>Accounting period start and end dates should\
+                            \ not be displayed to users of your software.</b>"
                           format: date
                           example: 2022-04-05
                         source:
@@ -22429,16 +22441,16 @@ components:
                   startDate:
                     pattern: "^2[0-9]{3}-[0-9]{2}-[0-9]{2}$"
                     type: string
-                    description: The date the accounting period began.
-                    example: 2018-05-01
+                    description: The date the accounting period began. This must be
+                      the 6th of April.
+                    example: 2018-04-06
                   endDate:
                     pattern: "^2[0-9]{3}-[0-9]{2}-[0-9]{2}$"
                     type: string
-                    description: The date the accounting period finished. The accounting
-                      period must end in the tax year to which it is assigned. For
-                      MTD submissions 2019-20 is the earliest tax year in which an
-                      accounting period can end.
-                    example: 2019-04-30
+                    description: The date the accounting period finished. This must
+                      be the 5th April. For MTD submissions 2019-20 is the earliest
+                      tax year in which an accounting period can end.
+                    example: 2019-04-05
                 additionalProperties: false
                 description: |-
                   The duration of the business income source operations to be included in the tax year submission. 2019-20 is the earliest tax year to which the accounting period can be assigned.
@@ -22544,16 +22556,16 @@ components:
                   startDate:
                     pattern: "^2[0-9]{3}-[0-9]{2}-[0-9]{2}$"
                     type: string
-                    description: The date the accounting period began.
-                    example: 2018-05-01
+                    description: The date the accounting period began. This must be
+                      the 6th of April.
+                    example: 2018-04-06
                   endDate:
                     pattern: "^2[0-9]{3}-[0-9]{2}-[0-9]{2}$"
                     type: string
-                    description: The date the accounting period finished. The accounting
-                      period must end in the tax year to which it is assigned. For
-                      MTD submissions 2019-20 is the earliest tax year in which an
-                      accounting period can end.
-                    example: 2019-04-30
+                    description: The date the accounting period finished. This must
+                      be the 5th April. For MTD submissions 2019-20 is the earliest
+                      tax year in which an accounting period can end.
+                    example: 2019-04-05
                 additionalProperties: false
                 description: |-
                   The duration of the business income source operations to be included in the tax year submission. 2019-20 is the earliest tax year to which the accounting period can be assigned.
@@ -22831,15 +22843,17 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2022-04-05
             source:
               type: string
               description: Specifies the source of the income data used in this calculation.
@@ -24565,15 +24579,17 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2022-04-05
             source:
               type: string
               description: Specifies the source of the income data used in this calculation.
@@ -26309,15 +26325,17 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2022-04-05
             source:
               type: string
               description: Specifies the source of the income data used in this calculation.
@@ -28753,15 +28771,17 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2022-04-05
             source:
               type: string
               description: Specifies the source of the income data used in this calculation.
@@ -29710,15 +29730,17 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2022-04-05
             source:
               type: string
               description: Specifies the source of the income data used in this calculation.
@@ -30672,15 +30694,17 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
+              example: 2022-04-05
             source:
               type: string
               description: Specifies the source of the income data used in this calculation.
@@ -32266,15 +32290,15 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
               example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
               example: 2022-04-05
             source:
@@ -33856,15 +33880,15 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
               example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
               example: 2022-04-05
             source:
@@ -35459,15 +35483,15 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
               example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
               example: 2022-04-05
             source:
@@ -36933,15 +36957,15 @@ components:
             accountingPeriodStartDate:
               type: string
               description: "The date the accounting period started. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 6th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
               example: 2021-04-06
             accountingPeriodEndDate:
               type: string
               description: "The date the accounting period ended. Date in the format\
-                \ YYYY-MM-DD. \n\nNote: <b>Accounting period start and end dates should\
-                \ not be displayed to users of your software.</b>"
+                \ YYYY-MM-DD. This must be 5th April. \n\nNote: <b>Accounting period\
+                \ start and end dates should not be displayed to users of your software.</b>"
               format: date
               example: 2022-04-05
             source:
