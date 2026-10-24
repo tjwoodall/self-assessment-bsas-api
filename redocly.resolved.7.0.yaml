@@ -12743,7 +12743,7 @@ paths:
                               maximum: 99999999999.99
                               example: 1000.45
                             residentialFinancialCost:
-                              description: The adjustment to the residential financial cost that can be deductible from rental income (tax relief). The value must be between -99999999999.99 and 99999999999.99 up to 2 decimal places (excluding 0 or 0.00). This field is deprecated and will be removed in a future release. Values submitted through this field are accepted but are not reflected in summary calculations, where this value is returned as 0.
+                              description: The adjustment to the residential financial cost that can be deductible from rental income (tax relief). The value must be between -99999999999.99 and 99999999999.99 up to 2 decimal places (excluding 0 or 0.00). This field is deprecated and will be removed in a future release. Values submitted through this field are no longer accepted because it is not reflected in summary calculations, where this value is returned as 0.
                               type: number
                               deprecated: true
                               multipleOf: 0.01
@@ -12962,6 +12962,12 @@ paths:
                   description: |
                     The request did not match any available Sandbox data. Check that the supplied Gov-Test-Scenario is correct for this endpoint version. This error will only be returned in the Sandbox environment.
                   value: *ref_15
+                RULE_RESIDENTIAL_FINANCIAL_COST_NOT_ALLOWED:
+                  description: |
+                    Following changes to the tax treatment of residential finance costs from the 2020–21 tax year, the residentialFinancialCost field is not applicable for BSAS submissions for tax years 2026–27 and later.
+                  value: &ref_47
+                    code: RULE_RESIDENTIAL_FINANCIAL_COST_NOT_ALLOWED
+                    message: The residentialFinancialCost field is not applicable for this tax year
         '403':
           description: Forbidden
           headers:
@@ -19624,7 +19630,7 @@ paths:
                                     maximum: 99999999999.99
                                     example: 1000.45
                                   residentialFinancialCost:
-                                    description: The adjustment to the residential financial cost that can be deductible from rental income (tax relief). The value must be between -99999999999.99 and 99999999999.99 up to 2 decimal places (excluding 0 or 0.00). This field is deprecated and will be removed in a future release. Values submitted through this field are accepted but are not reflected in summary calculations, where this value is returned as 0.
+                                    description: The adjustment to the residential financial cost that can be deductible from rental income (tax relief). The value must be between -99999999999.99 and 99999999999.99 up to 2 decimal places (excluding 0 or 0.00). This field is deprecated and will be removed in a future release. Values submitted through this field are no longer accepted because it is not reflected in summary calculations, where this value is returned as 0.
                                     type: number
                                     deprecated: true
                                     minimum: -99999999999.99
@@ -19866,6 +19872,10 @@ paths:
                   value:
                     code: RULE_PROPERTY_ID_MISMATCH
                     message: The supplied property ID is not valid for this income source
+                RULE_RESIDENTIAL_FINANCIAL_COST_NOT_ALLOWED:
+                  description: |
+                    Following changes to the tax treatment of residential finance costs from the 2020–21 tax year, the residentialFinancialCost field is not applicable for BSAS submissions for tax years 2026–27 and later.
+                  value: *ref_47
         '403':
           description: Forbidden
           headers:
