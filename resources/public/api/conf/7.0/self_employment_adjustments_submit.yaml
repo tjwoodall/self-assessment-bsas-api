@@ -49,20 +49,15 @@ post:
             - $ref: "./schemas/submit_self_employment_accounting_adjustments/def2/request.json"
         examples:
           Full Expenses request for TY 2023-24 and before:
-            value:
-              $ref: './examples/submit_self_employment_accounting_adjustments/def1/submit_se_adjustments_full.json'
+            externalValue: './examples/submit_self_employment_accounting_adjustments/def1/submit_se_adjustments_full.json'
           Consolidated Expenses request for TY 2023-24 and before:
-            value:
-              $ref: './examples/submit_self_employment_accounting_adjustments/def1/submit_se_adjustments_consolidated.json'
+            externalValue: './examples/submit_self_employment_accounting_adjustments/def1/submit_se_adjustments_consolidated.json'
           Full Expenses request for TY 2024-25 and after:
-            value:
-              $ref: './examples/submit_self_employment_accounting_adjustments/def2/submit_se_adjustments_full.json'
+            externalValue: './examples/submit_self_employment_accounting_adjustments/def2/submit_se_adjustments_full.json'
           Consolidated Expenses request for TY 2024-25 and after:
-            value:
-              $ref: './examples/submit_self_employment_accounting_adjustments/def2/submit_se_adjustments_consolidated.json'
+            externalValue: './examples/submit_self_employment_accounting_adjustments/def2/submit_se_adjustments_consolidated.json'
           Zero Adjustments request for TY 2024-25 and after:
-            value:
-              $ref: './examples/submit_self_employment_accounting_adjustments/def2/submit_se_adjustments_zero.json'
+            externalValue: './examples/submit_self_employment_accounting_adjustments/def2/submit_se_adjustments_zero.json'
 
   responses:
     200:
