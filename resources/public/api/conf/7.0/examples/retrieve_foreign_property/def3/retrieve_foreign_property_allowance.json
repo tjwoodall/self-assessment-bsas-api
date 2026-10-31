@@ -47,6 +47,7 @@
     "deductions": {
       "propertyAllowance": 0.25
     },
+    
     "taxableProfit": 2500,
     "countryLevelDetail": [
       {
@@ -77,6 +78,7 @@
         "deductions": {
           "propertyAllowance": 0.25
         },
+        
         "taxableProfit": 0.12,
         "propertyLevelDetail": [
           {
@@ -108,6 +110,7 @@
             "deductions": {
               "propertyAllowance": 0.25
             },
+            
             "taxableProfit": 1.12,
             "adjustedIncomeTaxLoss": 1.13
           }
@@ -163,6 +166,7 @@
     "deductions": {
       "propertyAllowance": 0.25
     },
+    
     "taxableProfit": 2500,
     "countryLevelDetail": [
       {
@@ -193,6 +197,7 @@
         "deductions": {
           "propertyAllowance": 0.25
         },
+        
         "taxableProfit": 0.12,
         "propertyLevelDetail": [
           {
@@ -224,6 +229,7 @@
             "deductions": {
               "propertyAllowance": 0.25
             },
+            
             "taxableProfit": 1.12,
             "adjustedIncomeTaxLoss": 1.13
           }

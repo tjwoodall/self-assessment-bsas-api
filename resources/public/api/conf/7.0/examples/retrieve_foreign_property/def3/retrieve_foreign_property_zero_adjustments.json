@@ -44,6 +44,7 @@
     "deductions": {
       "propertyAllowance": 0.12
     },
+    
     "taxableProfit": 12500
   },
   "adjustments": {
@@ -73,6 +74,7 @@
     "deductions": {
       "propertyAllowance": 0.12
     },
+    
     "taxableProfit": 12500
   }
 }

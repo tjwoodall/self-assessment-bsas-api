@@ -41,6 +41,7 @@
       "otherCapitalAllowance": 0.12,
       "zeroEmissionsCarAllowance": 0.12
     },
+    
     "taxableProfit": 12500
   },
   "adjustments": {
@@ -54,8 +55,9 @@
           "consolidatedExpenses": 0.12
         }
       }
-    ],
-    "adjustedSummaryCalculation": {
+     ]
+  },
+  "adjustedSummaryCalculation": {
       "totalIncome": 0.12,
       "income": {
         "totalRentsReceived": 0.12
@@ -76,7 +78,7 @@
         "otherCapitalAllowance": 0.12,
         "zeroEmissionsCarAllowance": 0.12
       },
+      
       "taxableProfit": 2500
     }
   }
-}
